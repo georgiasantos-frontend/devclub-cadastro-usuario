@@ -1,8 +1,6 @@
 import PropTypes from "prop-types";
 
 import { Button } from "./styles";
-import { ThemeContext } from "styled-components";
-
 function DefaultButton({ children, theme, ...props }) {
   //  ... spread operator -> pegar todo o resto de children
 

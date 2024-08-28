@@ -2,16 +2,10 @@ import { useRef } from "react";
 import { useNavigate } from "react-router-dom";
 import api from "../../services/api";
 
-import {
-  Title,
-  Container,
-  Form,
-  ContainerInputs,
-  Input,
-  InputLabel,
-} from "./styles";
+import { Container, Form, ContainerInputs, Input, InputLabel } from "./styles";
 
 import Button from "../../components/Button";
+import Title from "../../components/Title";
 import TopBackground from "../../components/TopBackground";
 
 function Home() {
